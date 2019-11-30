@@ -8,7 +8,7 @@ from sys import argv
 keyword = argv[-1]
 url, name = getUrl(keyword)
 
-print(f'{Fore.MAGENTA}Searching {keyword} for image..')
+print(f'{Fore.MAGENTA}Searching {keyword} image..')
 
 download(url, name)
 
