@@ -5,6 +5,7 @@ import json
 import sys
 
 def getUrl(keyword):
+
     parameters = {
         'client_id': '34b0c45d8af37bf41eae7f26abbd5323a5757bb4e846349d129b639006bb5642',
         'query': keyword,
